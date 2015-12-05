@@ -1,0 +1,9 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="sap.ui.demo.View.XMLView" xmlns:html="http://www.w3.org/1999/xhtml">
+		<Page title="XML View">
+		<content>
+	<Button id="idxmlButton" text="click to navigate to JS View" press="onPress">
+	</Button>
+	</content>
+	</Page>
+</core:View>
