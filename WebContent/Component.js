@@ -3,6 +3,7 @@ jQuery.sap.declare("sap.ui.demo.Component");
 sap.ui.core.UIComponent.extend("sap.ui.demo.Component", {
 
     metadata: {
+    	libs:["sap.m"],
         routing: {
 
             config: {
@@ -11,6 +12,7 @@ sap.ui.core.UIComponent.extend("sap.ui.demo.Component", {
                 targetControl: "idAppJS",
                 clearTarget: false,
                 transition: "slide",
+                byPassed:"NotFound"
             },
 
             routes: [
